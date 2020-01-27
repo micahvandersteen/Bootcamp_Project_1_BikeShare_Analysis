@@ -1,0 +1,11 @@
+total population = B01003_001E
+
+median household income = B19013_001E
+
+people living in poverty = B17001_002E
+
+number of people commuting = B08301_001E
+
+number of people driving to work = B08301_003E
+
+number of people "other" to work = B08101_041E
