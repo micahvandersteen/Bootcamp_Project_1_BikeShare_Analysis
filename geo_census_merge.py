@@ -25,12 +25,6 @@ b_merged = b_census_gdf.merge(b_census_df, on='GEOID')
 p_merged = p_census_gdf.merge(p_census_df, on='GEOID')
 # p_merged.to_csv('census_output/p_merged.csv')
 
-# pull in the merged census info that includes the top 25 data
-# m_merged_25 = pd.read_csv('census_output/m_merged_25.csv', index_col=0)
-# b_merged_25 = pd.read_csv('census_output/b_merged_25.csv', index_col=0)
-# p_merged_25 = pd.read_csv('census_output/p_merged_25.csv', index_col=0)
-
-
 # # Read in the bike trips info
 m_bike_df = pd.read_csv('census_output/m_bike.csv', index_col=0)
 m_bike_df = m_bike_df.rename(columns={"start station longitude":"s_longitude", "start station latitude":"s_latitude",
